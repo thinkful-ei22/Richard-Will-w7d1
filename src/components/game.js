@@ -6,6 +6,7 @@ import './game.css';
 import Header from './header';
 import Feedback from './feedback';
 import Form from './form';
+import AccumulatedNumbers from './accumulated-numbers';
 
 export default function Game() { 
   // <div className="overlay" id="modal" style="display">  ...</div> 
@@ -18,6 +19,7 @@ export default function Game() {
         <p>"Guess #"
           <span className="count">6</span>
         </p>
+        <AccumulatedNumbers />
       </main>
     </div>
   ); }
